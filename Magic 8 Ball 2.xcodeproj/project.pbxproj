@@ -12,7 +12,18 @@
 		05AFA22F1FCA6B8F006A7E12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05AFA22D1FCA6B8F006A7E12 /* Main.storyboard */; };
 		05AFA2311FCA6B8F006A7E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05AFA2301FCA6B8F006A7E12 /* Assets.xcassets */; };
 		05AFA2341FCA6B8F006A7E12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05AFA2321FCA6B8F006A7E12 /* LaunchScreen.storyboard */; };
+		05AFA2421FCC75A4006A7E12 /* Magic_8_Ball_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AFA2411FCC75A4006A7E12 /* Magic_8_Ball_2Tests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05AFA2441FCC75A4006A7E12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05AFA21E1FCA6B8F006A7E12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05AFA2251FCA6B8F006A7E12;
+			remoteInfo = "Magic 8 Ball 2";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		05AFA2261FCA6B8F006A7E12 /* Magic 8 Ball 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic 8 Ball 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +33,20 @@
 		05AFA2301FCA6B8F006A7E12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05AFA2331FCA6B8F006A7E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05AFA2351FCA6B8F006A7E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05AFA23F1FCC75A4006A7E12 /* Magic 8 Ball 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic 8 Ball 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05AFA2411FCC75A4006A7E12 /* Magic_8_Ball_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_8_Ball_2Tests.swift; sourceTree = "<group>"; };
+		05AFA2431FCC75A4006A7E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		05AFA2231FCA6B8F006A7E12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05AFA23C1FCC75A4006A7E12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				05AFA2281FCA6B8F006A7E12 /* Magic 8 Ball 2 */,
+				05AFA2401FCC75A4006A7E12 /* Magic 8 Ball 2Tests */,
 				05AFA2271FCA6B8F006A7E12 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				05AFA2261FCA6B8F006A7E12 /* Magic 8 Ball 2.app */,
+				05AFA23F1FCC75A4006A7E12 /* Magic 8 Ball 2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +85,15 @@
 				05AFA2351FCA6B8F006A7E12 /* Info.plist */,
 			);
 			path = "Magic 8 Ball 2";
+			sourceTree = "<group>";
+		};
+		05AFA2401FCC75A4006A7E12 /* Magic 8 Ball 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				05AFA2411FCC75A4006A7E12 /* Magic_8_Ball_2Tests.swift */,
+				05AFA2431FCC75A4006A7E12 /* Info.plist */,
+			);
+			path = "Magic 8 Ball 2Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +116,24 @@
 			productReference = 05AFA2261FCA6B8F006A7E12 /* Magic 8 Ball 2.app */;
 			productType = "com.apple.product-type.application";
 		};
+		05AFA23E1FCC75A4006A7E12 /* Magic 8 Ball 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05AFA2461FCC75A4006A7E12 /* Build configuration list for PBXNativeTarget "Magic 8 Ball 2Tests" */;
+			buildPhases = (
+				05AFA23B1FCC75A4006A7E12 /* Sources */,
+				05AFA23C1FCC75A4006A7E12 /* Frameworks */,
+				05AFA23D1FCC75A4006A7E12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05AFA2451FCC75A4006A7E12 /* PBXTargetDependency */,
+			);
+			name = "Magic 8 Ball 2Tests";
+			productName = "Magic 8 Ball 2Tests";
+			productReference = 05AFA23F1FCC75A4006A7E12 /* Magic 8 Ball 2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -97,6 +147,11 @@
 					05AFA2251FCA6B8F006A7E12 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+					};
+					05AFA23E1FCC75A4006A7E12 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05AFA2251FCA6B8F006A7E12;
 					};
 				};
 			};
@@ -114,6 +169,7 @@
 			projectRoot = "";
 			targets = (
 				05AFA2251FCA6B8F006A7E12 /* Magic 8 Ball 2 */,
+				05AFA23E1FCC75A4006A7E12 /* Magic 8 Ball 2Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +185,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		05AFA23D1FCC75A4006A7E12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,7 +204,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		05AFA23B1FCC75A4006A7E12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AFA2421FCC75A4006A7E12 /* Magic_8_Ball_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05AFA2451FCC75A4006A7E12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05AFA2251FCA6B8F006A7E12 /* Magic 8 Ball 2 */;
+			targetProxy = 05AFA2441FCC75A4006A7E12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		05AFA22D1FCA6B8F006A7E12 /* Main.storyboard */ = {
@@ -281,7 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.johanlindstrom.Magic-8-Ball-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,7 +375,39 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.johanlindstrom.Magic-8-Ball-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		05AFA2471FCC75A4006A7E12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TP64GQ26F7;
+				INFOPLIST_FILE = "Magic 8 Ball 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johanlindstrom.Magic-8-Ball-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic 8 Ball 2.app/Magic 8 Ball 2";
+			};
+			name = Debug;
+		};
+		05AFA2481FCC75A4006A7E12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TP64GQ26F7;
+				INFOPLIST_FILE = "Magic 8 Ball 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johanlindstrom.Magic-8-Ball-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic 8 Ball 2.app/Magic 8 Ball 2";
 			};
 			name = Release;
 		};
@@ -317,6 +428,15 @@
 			buildConfigurations = (
 				05AFA2391FCA6B8F006A7E12 /* Debug */,
 				05AFA23A1FCA6B8F006A7E12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05AFA2461FCC75A4006A7E12 /* Build configuration list for PBXNativeTarget "Magic 8 Ball 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05AFA2471FCC75A4006A7E12 /* Debug */,
+				05AFA2481FCC75A4006A7E12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
